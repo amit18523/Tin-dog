@@ -1,0 +1,158 @@
+/* title */
+.title{
+  padding:7% 15%;
+  padding-top: 3%;
+}
+.title-heading{
+  font-family: 'Roboto Condensed', sans-serif;
+  margin-bottom: 20%;
+
+}
+.title,.title-navbar{
+    background-color: #ffd5cd;
+}
+.title-btn-row{
+  margin-left: 0;
+}
+
+/* button for download with red outline */
+
+.btn-outline-light {
+    color: black;
+    border-color: #a12917;
+}
+.download-button{
+  margin-right: 2%;
+}
+
+/* carousel */
+.carousel-item{
+  padding: 10% 15%;
+  padding-bottom: 3%;
+}
+
+/* cta */
+
+.btn-cta{
+  margin: 1%;
+}
+#cta{
+  background-color: #ffd5cd;
+  padding: 10%;
+  text-align: center;
+}
+.h3-cta{
+  font-size: 3.5rem;
+}
+.cta-row-button{
+  margin: 1%;
+  text-align: center;
+}
+
+
+#features{
+  background-color: #f9fcfb;
+  color:black;
+  text-align: center;
+  padding: 8% 12%;
+  position: relative;
+  z-index: 1;
+}
+.features-text{
+  font-family: 'cursive', sans-serif;
+}
+#footer{
+  color: #6f9eaf;
+  padding: 2%;
+  padding-bottom: 1%;
+  text-align: center;
+}
+.footer-icon{
+  background-color: #fcf8e8;
+  margin: 2px;
+}
+.title-heading{
+  color:white;
+  font-size: 4rem;
+  font-weight: bold;
+}
+.features-heading{
+  font-family: 'Nunito', sans-serif;
+}
+.icon:hover{
+  color: #fdb827 !important;
+}
+.icon{
+  padding: 5%;
+}
+.title-image{
+  height: auto;
+  margin-left: 15%;
+  margin-top:5%;
+  position: absolute;
+  left: 20%;
+  transform: rotate(25deg);
+  width: 55%
+}
+@media (max-width:1028px) {
+   .title{
+     text-align: center;
+   }
+   .title-image{
+     margin-left: 0;
+     position: static;
+     transform: rotate(0);
+   }
+}
+.navbar {
+  margin-bottom: 3.5rem;
+  padding: 0 ;
+}
+.navbar-brand{
+  font-family:'PT Sans Narrow', 'sans-serif';
+  font-size:2.5rem;
+  font-weight: bold;
+}
+.nav-link{
+  font-family: cursive;
+  font-size: 1.2rem;
+}
+#press{
+  background-color: #ffb26b;
+  padding-bottom: 3%;
+  text-align: center;
+}
+.press-logo{
+  height: auto;
+  margin: 20px 20px 20px 50px;
+  width: 15%;
+}
+#pricing{
+  padding: 7%;
+  text-align: center;
+}
+
+.pricing-row{
+  margin-top:5%;
+}
+
+/* testimonial */
+
+#testimonials{
+  background-color: #ffb26b;
+  color:#fff;
+  font-size: 1.5rem;
+  font-weight: 200;
+  text-align: center;
+}
+.testimonial-heading{
+  font-size: 2rem;
+  font-weight: 900;
+}
+.testimonial-image{
+
+  border-radius: 100%;
+  height: auto;
+  margin: 2% 1% 0  ;
+  width: 15%;
+}
